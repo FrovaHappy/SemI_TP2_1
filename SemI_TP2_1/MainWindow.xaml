@@ -6,56 +6,40 @@
         xmlns:local="clr-namespace:SemI_TP2_1"
         xmlns:Xml="clr-namespace:System.Xml;assembly=System.Xml" x:Class="MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="449" Width="350" ResizeMode="CanMinimize">
-    <Grid Background="#FF535353">
+        Title="MainWindow" Height="449" Width="354" ResizeMode="CanMinimize">
+    <Grid Background="#FF303030" RenderTransformOrigin="0.5,0.5">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="31,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Label Content="a" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White"/>
-        <Grid Background="#FF535353">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="31,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-            <Label Content="a" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White"/>
 
-        </Grid>
-        <Grid Background="#FF535353" RenderTransformOrigin="0.5,0.5">
-            <Grid.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.302"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Grid.RenderTransform>
+        <Grid RenderTransformOrigin="0.5,0.5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBox x:Name="Textbox_a" HorizontalAlignment="Left" Height="23" Margin="31,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            <TextBox x:Name="Textbox_a" HorizontalAlignment="Left" Height="23" Margin="31,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White" BorderBrush="#FF999999"/>
             <Label Content="a" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <TextBox x:Name="Textbox_b" Height="23" Margin="31,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120"/>
+            <TextBox x:Name="Textbox_b" Height="23" Margin="31,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120" Background="{x:Null}" Foreground="White" BorderBrush="#FF999999"/>
             <Label Content="b" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <TextBox x:Name="Textbox_c" HorizontalAlignment="Left" Height="23" Margin="31,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="Textbox_c" HorizontalAlignment="Left" Height="23" Margin="31,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White" BorderBrush="#FF999999"/>
             <Label Content="c" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <TextBox x:Name="Textbox_x" HorizontalAlignment="Left" Height="23" Margin="212,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="Textbox_x" HorizontalAlignment="Left" Height="23" Margin="212,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White" BorderBrush="#FF999999"/>
             <Label Content="x" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <TextBox x:Name="Textbox_y" Height="23" Margin="212,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120"/>
+            <TextBox x:Name="Textbox_y" Height="23" Margin="212,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120" Background="{x:Null}" Foreground="White" BorderBrush="#FF999999"/>
             <Label Content="y" HorizontalAlignment="Left" Margin="190,41,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <TextBox x:Name="Textbox_z" HorizontalAlignment="Left" Height="23" Margin="212,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="Textbox_z" HorizontalAlignment="Left" Height="23" Margin="212,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White" BorderBrush="#FF999999"/>
             <Label Content="z" HorizontalAlignment="Left" Margin="191,72,0,0" VerticalAlignment="Top" Foreground="White"/>
             <Image HorizontalAlignment="Left" Height="50" Margin="30,134,0,0" VerticalAlignment="Top" Width="80" Source="Formula_1.png"/>
             <Image HorizontalAlignment="Left" Height="50" Margin="10,189,0,0" VerticalAlignment="Top" Width="119" Source="Formula_2.png"/>
             <Image HorizontalAlignment="Left" Height="50" Margin="30,244,0,0" VerticalAlignment="Top" Width="80" Source="Formula_3.png"/>
-            <Button x:Name="Calcular_1" Content="Calcular" HorizontalAlignment="Left" Margin="158,149,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Calcular_2" Content="Calcular" HorizontalAlignment="Left" Margin="158,204,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Calcular_3" Content="Calcular" HorizontalAlignment="Left" Margin="158,259,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="Calcular_1" Content="Calcular" HorizontalAlignment="Left" Margin="158,149,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" Foreground="White"/>
+            <Button x:Name="Calcular_2" Content="Calcular" HorizontalAlignment="Left" Margin="158,204,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" Foreground="White"/>
+            <Button x:Name="Calcular_3" Content="Calcular" HorizontalAlignment="Left" Margin="158,259,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" Foreground="White"/>
             <Label x:Name="Label_Resultado_1" Content="Sin calcular" HorizontalAlignment="Left" Margin="251,146,0,0" VerticalAlignment="Top" Width="81" Foreground="White"/>
             <Label x:Name="Label_Resultado_2" Content="Sin calcular" HorizontalAlignment="Left" Margin="251,201,0,0" VerticalAlignment="Top" Width="81" Foreground="White"/>
             <Label x:Name="Label_Resultado_3" Content="Sin calcular" HorizontalAlignment="Left" Margin="251,256,0,0" VerticalAlignment="Top" Width="81" Foreground="White"/>
 
         </Grid>
-
+       
     </Grid>
 </Window>
