@@ -68,9 +68,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Vantana_Principal.xaml.vb">
-      <DependentUpon>Vantana_Principal.xaml</DependentUpon>
-    </Compile>
     <Page Include="Ventana_a.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -83,10 +80,6 @@
       <DependentUpon>Ventana_a.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Vantana_Principal.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Import Include="System.Threading.Tasks" />
